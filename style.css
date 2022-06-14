@@ -1,0 +1,115 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 30px;
+}
+
+header h2,
+h5 {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.box {
+  width: 30%;
+  height: 100px;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.box:hover {
+  width: 30%;
+  height: 100px;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 4px 4px #d5217262;
+  transition: ease-in 0.2s;
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+button {
+  width: 120px;
+  height: 50px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 12px;
+}
+button:hover {
+  width: 120px;
+  height: 50px;
+  background: rgb(30, 29, 29);
+  color: white;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+@media screen and (min-width: 956px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    width: 50%;
+  }
+
+  .box {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+  }
+
+  .box:hover {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 4px 4px #d5217262;
+    transition: ease-in 0.2s;
+  }
+}
